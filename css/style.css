@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+.container {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.market {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    gap: 8px;   
+}
+.btn {
+
+    width: 234px;
+    height: 45px;
+    border: none;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.prod_box {
+    margin-bottom: 30px;
+
+    display: inline-flex;
+    /* flex-direction: row; */
+    padding: 10px 20px;
+}
+.prod_item {
+    width: 310px;
+    height: 414px;
+    background: black;
+    
+    
+}
+.img_el {
+    width: 310px;
+    height: 180px;
+    background: url(../img/81fPKd-2AYL\ 1.png) no-repeat;
+    background-position: center;
+    background-color: white;
+    border: 1px solid black;
+}
+.title {
+    color: white;
+    padding: 10px 20px;
+}
+.title p {
+    color: rgba(255, 255, 255, 0.56);
+    padding: 15px 0 ;
+    font-size: 15px;
+}
+img {
+    max-width: 100%;
+}
+.option {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+.option .el {
+    font-size: 24px;
+}
+.option .el img {
+   width: 15px;
+   height: 17px;
+}
+span {
+    color: white;
+}
+.fav {
+    width: 250px;
+    height: 40px;
+    background: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 10px 30px 5px 30px;
+}
+/* .fav:hover {
+    background: blue;
+    color: white;
+} */
+.active_fav {
+    color: white;
+    background: blue;
+}
